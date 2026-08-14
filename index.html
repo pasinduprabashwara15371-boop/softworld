@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SoftWorld</title>
+
+<link rel="icon" href="images/logo.jpg">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <img src="images/logo.jpg" alt="SoftWorld Logo">
+        <h1>SoftWorld</h1>
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section id="home">
+
+    <h2>Welcome To SoftWorld</h2>
+
+    <p>
+        Software Development & Website Development
+    </p>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+
+        <div class="card">
+            <h3>Website Development</h3>
+            <p>Modern responsive business websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Software Development</h3>
+            <p>Custom software solutions.</p>
+        </div>
+
+        <div class="card">
+            <h3>Game Development</h3>
+            <p>2D and 3D game creation.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio">
+
+    <h2>My Portfolio</h2>
+
+    <div class="portfolio-container">
+
+        <div class="portfolio-card">
+            <img src="images/software.jpg" alt="Software">
+            <h3>Software Engineering</h3>
+            <p>Professional software solutions.</p>
+        </div>
+
+        <div class="portfolio-card">
+            <img src="images/game.jpg" alt="Game">
+            <h3>Game Development</h3>
+            <p>2D and 3D game creation.</p>
+        </div>
+
+        <div class="portfolio-card">
+            <img src="images/website.jpg" alt="Website">
+            <h3>Business Website</h3>
+            <p>Professional company website.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- WHY US -->
+
+<section class="why-us">
+
+    <h2>Why Choose SoftWorld?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>⚡ Fast Delivery</h3>
+            <p>Projects completed on time.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>🎨 Modern Design</h3>
+            <p>Professional and responsive websites.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>💻 Quality Code</h3>
+            <p>Clean and maintainable code.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>📞 24/7 Support</h3>
+            <p>Always available for assistance.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>Email: prabashwarapasindu272@gmail.com
+</p>
+
+    <p>Phone: +94 710510428</p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>© 2026 SoftWorld. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
+<a href="https://wa.me/94710510428"
+class="whatsapp"
+target="_blank">
+💬
+</a>
+<section class="reviews" id="reviews">
+  <h2>What Our Customers Say</h2>
+
+  <div class="review-container">
+
+    <div class="review-card">
+      <p>"සේවාව ඉතා හොඳයි. Highly recommended!"</p>
+      <h4>- Pasindu Prabashwara</h4>
+    </div>
+
+    <div class="review-card">
+      <p>"Fast delivery and good quality products."</p>
+      <h4>- Pasindu Prabashwara</h4>
+    </div>
+
+    <div class="review-card">
+      <p>"Very professional service. I am satisfied."</p>
+      <h4>- Pasindu Prabashwara</h4>
+    </div>
+
+  </div>
+</section>
+<section class="lead-form" id="contact">
+  <h2>Get Your Service</h2>
+  <p>Fill this form and we will contact you shortly</p>
+
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    
+    <input type="tel" placeholder="Phone Number" required>
+
+    <input type="email" placeholder="Email (optional)">
+
+    <select required>
+      <option value="">Select Service</option>
+      <option>Website Design</option>
+      <option>Business Logo</option>
+      <option>Online Marketing</option>
+      <option>Other</option>
+    </select>
+
+    <textarea placeholder="Describe what you need..." required></textarea>
+
+    <button type="submit">Send Request</button>
+  </form>
+</section>
+<a href="https://wa.me/94710510428" class="whatsapp-btn">
+  Chat on WhatsApp
+</a>
+<section class="lead-form">
+  <h2>Get Your Service</h2>
+
+  <form onsubmit="sendToWhatsApp(); return false;">
+
+    <input type="text" id="name" placeholder="Full Name" required>
+
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <select id="service" required>
+      <option value="">Select Service</option>
+      <option>Website Design</option>
+      <option>Logo Design</option>
+      <option>Marketing</option>
+      <option>Other</option>
+    </select>
+
+    <textarea id="message" placeholder="Describe your need..." required></textarea>
+
+    <button type="submit">Send via WhatsApp</button>
+
+  </form>
+</section>
+<section class="lead-form">
+  <h2>Get Your Service</h2>
+
+  <form onsubmit="sendData(); return false;">
+
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+
+    <select id="service" required>
+      <option value="">Select Service</option>
+      <option>Software Development</option>
+      <option>Web Sites</option>
+      <option>Gaming</option>
+    </select>
+
+    <textarea id="message" placeholder="Message" required></textarea>
+
+    <button type="submit">Send Request</button>
+
+  </form>
+</section>
+<section class="process">
+    <h2>How We Work</h2>
+
+    <div class="step">
+        <h3>1. Consultation</h3>
+        <p>Tell us about your business and project requirements.</p>
+    </div>
+
+    <div class="step">
+        <h3>2. Planning</h3>
+        <p>We create a strategy and project plan based on your needs.</p>
+    </div>
+
+    <div class="step">
+        <h3>3. Design</h3>
+        <p>We design a professional and modern solution for your business.</p>
+    </div>
+
+    <div class="step">
+        <h3>4. Development</h3>
+        <p>Our team develops and tests the project carefully.</p>
+    </div>
+
+    <div class="step">
+        <h3>5. Delivery</h3>
+        <p>We deliver the completed project and provide support.</p>
+    </div>
+</section>
+<section class="payment-process">
+    <h2>Payment Process</h2>
+
+    <div class="step">1. Submit Your Project Request</div>
+    <div class="step">2. Receive Quotation</div>
+    <div class="step">3. Pay 50% Advance</div>
+    <div class="step">4. Project Development</div>
+    <div class="step">5. Review & Approval</div>
+    <div class="step">6. Pay Remaining 50%</div>
+    <div class="step">7. Project Delivery</div>
+</section>
+<form method="post" action="https://sandbox.payhere.lk/pay/checkout">
+    <input type="hidden" name="merchant_id" value="YOUR_MERCHANT_ID">
+    <input type="hidden" name="return_url" value="https://yourwebsite.com/success">
+    <input type="hidden" name="cancel_url" value="https://yourwebsite.com/cancel">
+    <input type="hidden" name="notify_url" value="https://yourwebsite.com/notify">
+
+    <input type="hidden" name="order_id" value="001">
+    <input type="hidden" name="items" value="Website Development">
+    <input type="hidden" name="currency" value="LKR">
+    <input type="hidden" name="amount" value="10000">
+
+    <button type="submit">Pay Now</button>
+</form>
